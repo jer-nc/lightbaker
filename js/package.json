@@ -1,0 +1,9 @@
+{
+  "name": "@orbitoon/lightbaker",
+  "version": "0.1.0",
+  "description": "lightbaker's scene writer and bake reader: no dependencies, browser and Node",
+  "private": true,
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "license": "MIT"
+}

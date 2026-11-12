@@ -1,0 +1,16 @@
+[package]
+name = "lightbaker-cli"
+description = "lightbaker's command line: bake a scene file into a lightmap and volume"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "lightbaker"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+lightbaker = { path = "../lightbaker" }
